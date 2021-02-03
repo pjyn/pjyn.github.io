@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Rancho&family=Yellowtail&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #f3d3de;
+                /* font-family: 'Assistant', sans-serif; */
+                font-family: 'Raleway', sans-serif;
+            }
+        </style>
+</head>
+
+<body class="d-flex flex-column vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./members.html">View All Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="transaction.html">View All transactions</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        <main class="my-2">
+            
+    <div class="container" style="font-family: 'Abel', sans-serif;">
+        <div class="text-center" style="color: aliceblue;">
+            <h1 class="display-4 text center" style="font-family: 'Dancing Script', cursive; color: #000;">Welcome! to NetBanking</h1>
+            <!-- <h2 style="font-family: 'Dancing Script', cursive;">"Good Banking is produced not by good laws, but by good bankers."</h2> -->
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-4 col-sm-6 p-4">
+                <h2><i class="fas fa-wallet"></i></h2>
+                <h2>Accounts</h2>
+                <p class="text-muted">All accounts are displayed clearly in one place.</p>
+                <h6>Current</h6>
+                <h6>Savings</h6>
+                <h6>Business</h6>
+                <h6>Demat</h6>
+            </div>
+            <div class="col-md-4 col-sm-6 p-4">
+                <h2><i class="fas fa-hand-holding-usd"></i></h2>
+                <h2>Savings </h2>
+                <p class="text-muted">Saving money becomes less of struggle if the results are looking neat!</p>
+            </div>
+            <div class="col-md-4 col-sm-8 offset-sm-2 offset-md-0 p-4">
+                <h2><i class="far fa-credit-card"></i></h2>
+                <h2> Management</h2>
+                <p class="text-muted">Users will never lose track of their card's balance thanks to this handy, smooth looking panel.</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 col-sm-6 p-4">
+                <h2><i class="fas fa-file-invoice-dollar"></i></h2>
+                <h2>Contracts</h2>
+                <p class="text-muted">This panel collects all contracts signed between the user and the bank.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 p-4">
+                <h2><i class="fas fa-handshake"></i></h2>
+                <h2>Loans</h2>
+                <p class="text-muted">This panel enables users to track loans and apply for new one instantly.</p>
+            </div>
+            <div class="col-md-4 col-sm-8 offset-sm-2 offset-md-0 p-4">
+                <h2><i class="fas fa-chart-line"></i></h2>
+                <h2>Investment </h2>
+                <p class="text-muted">If the bank provides Investment programme to their clients, users are able to see the perforance and make decisions based on frequently updated information.</p>
+            </div>
+        </div>
+    </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"></script>
+        <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                'use strict'
+
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.querySelectorAll('.needs-validation')
+
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+        </script>
+        <footer class="bg-dark footer mt-auto">
+    <div class="container py-1 text-muted">
+        <h3 class="d-inline">Connect</h3> 
+        <div class="d-inline p-4" style="font-size: 1.5rem;">
+            <a href="https://www.youtube.com/channel/UC2ngMQxgrflZdxoxzVopZ_w" class="p-1" style="text-decoration: none; color: #c2c1c1;;"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100002471872503" class="p-1" style="text-decoration: none; color: #c2c1c1;"><i class="fab fa-facebook-square"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rishabh-sharma-080b6a18b/" class="p-1" style="text-decoration: none; color: #c2c1c1;"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <hr style="height:2px;">
+    </div>
+    <div class="row m-0 p-0" style="color: rgb(100, 150, 75);">
+        <div class="col-md-4 p-0 p-md-1"><h5 class="mb-0">74  Overlook Drive, Richmond, California, US 99649</h5>
+            <h5 class="mb-0">Privacy Policy</h5></div>
+        <div class="col-md-4"></div>
+        <div class="col-8 col-md-4"><h5 style="text-align-last: right;"><i class="fas fa-phone"> </i> <span> 987-373-2426</span></h5></div>
+    </div>
+    <div class="container py-1">
+        <div class="text-center"><span class="text-muted">&copy;2021  All Rights Reserved</span></div>
+    </div>
+    <div class="row m-0" style="color: #df6a81;">
+        <div class="col-sm-6 offset-sm-6">
+            <span class="d-block" style="text-align-last: right;">Managed & Designed By &#64;Rishabh Sharma</span>
+        </div>
+    </div>
+</footer>
+</body>

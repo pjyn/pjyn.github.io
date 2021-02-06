@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -20,6 +21,38 @@
                 /* font-family: 'Assistant', sans-serif; */
                 font-family: 'Roboto', sans-serif;
             }
+                
+                .navbar-nav{
+                    width: 100%;
+                    background-color: #555;
+                    overflow: auto;
+                }
+            
+            .navbar-nav a { 
+                float: left;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                width: 50%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+                text-align:center; /* If you want the text to be centered */
+            }
+
+            /* .navbar-nav a :hover{
+                background-color: #000;
+                color: #df6a81;
+            } */
+            
+
+            @media screen and (max-width: 500px) {
+            .navbar-nav a {
+                float: none;
+                display: block;
+                width: 100% ;
+                text-align: left ;
+            }
+        }
+
         </style>
 </head>
 
@@ -30,27 +63,52 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+
+
+            
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./members.html">View All Customers</a>
+                    <a class="nav-link" href="./members.html">  Customers</a>
+
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="transaction.html">View All transactions</a>
+                    <a class="nav-link" href="./transaction.html">  Transactions</a>
                 </li>
             </ul>
-        </div>
+
+
+
+            <input dir="ltr" aria-autocomplete="list" aria-expanded="false" aria-label="" role="combobox" placeholder="Search NetBanking" autocomplete="off" spellcheck="false" aria-invalid="false" class="oajrlxb2 rq0escxv f1sip0of hidtqoto lzcic4wl hzawbc8m ijkhr0an nlq1og4t sgqwj88q b3i9ofy5 oo9gr5id b1f16np4 hdh3q7d8 dwo3fsh8 qu0x051f esr5mh6w e9989ue4 r7d6kgcz br7hx15l h2jyy9rg n3ddgdk9 owxd89k7 ihxqhq3m jq4qci2q k4urcfbm iu8raji3 qypqp5cg l60d2q6s hv4rvrfc hwnh5xvq dati1w0a o1lsuvei o6r2urh6 rmlgq0sb aj8hi1zk r4fl40cc kd8v7px7 m07ooulj mzan44vs" type="search" value="">
     </div>
 </nav>
         <main class="my-2">
             
     <div class="container" style="font-family: 'Abel', sans-serif;">
-        <div class="text-center" style="color: aliceblue;">
-            <h1 class="display-4 text center" style="font-family: 'Dancing Script', cursive; color: #000;">Welcome! to NetBanking</h1>
-            <!-- <h2 style="font-family: 'Dancing Script', cursive;">"Good Banking is produced not by good laws, but by good bankers."</h2> -->
+        <div class="text-center" style="color: rgb(19, 53, 83);">
+
+
+                <div id="hcontainer" duda_id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer ui-sortable" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" preserve-sticky-header="true" has-shadow="true" layout="e687f1ebb1404dcf886f0d6f6bd648e5===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" logo-size-target="80%"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236" duda_id="1709005236"> <div class="u_1093255238 dmRespRow dmDefaultListContentRow fullBleedChanged fullBleedMode mini-header-show-row grid-row ui-resizable" style="text-align:center" id="1093255238" duda_id="1093255238" outline="hide"> <div class="dmRespColsWrapper" id="1926868484" duda_id="1926868484" cols="3"> <div class="u_1850702992 small-12 dmRespCol large-5 medium-5 grid-column ui-sortable has-one-widget-only" id="1850702992" duda_id="1850702992" outline="hide"> <nav class="u_1882038318 effect-text-color main-navigation unifiednav dmLinksMenu unifiednav_empty grid-widget header-widget" role="navigation" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_2" data-show-vertical-sub-items="HOVER" id="1882038318" duda_id="1882038318" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false" outline="hide" > <ul class="unifiednav__container  " data-auto="navigation-pages"></ul> 
+                </nav> 
+        
+            
+            
+            </div> 
+            <div class="label row"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div></div> 
+            </div> 
+            <div class="mini-header-overlay"></div><div class="sectionLabelContainer">
+                <div class="sectionLabel header">
+            
+                </div>
+            </div></div>
+            
+
+
+            <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/622/4580994622_3a98dcab-d232-458a-a54e-fb9135655d97.png?cb=1612522758" id="1772630457" duda_id="1772630457" class="" data-dm-image-path="https://dewey.tailorbrands.com/production/brand_version_mockup_image/622/4580994622_3a98dcab-d232-458a-a54e-fb9135655d97.png?cb=1612522758" alt="">
+
+            
         </div>
         <div class="row mb-2">
             <div class="col-md-4 col-sm-6 p-4">
@@ -127,8 +185,9 @@
             <a href="https://www.youtube.com/channel/UC2ngMQxgrflZdxoxzVopZ_w" class="p-1" style="text-decoration: none; color: #c2c1c1;;"><i class="fab fa-youtube"></i></a>
             <a target="_blank" href="https://www.facebook.com/profile.php?id=100002471872503" class="p-1" style="text-decoration: none; color: #c2c1c1;"><i class="fab fa-facebook-square"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/rishabh-sharma-080b6a18b/" class="p-1" style="text-decoration: none; color: #c2c1c1;"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://twitter.com/sharmarishabh36" class="p-1" style="text-decoration: none; color: #c2c1c1;"><i class="fab fa-twitter"></i></a>
         </div>
-        <hr style="height:2px;">
+        <hr style="height:5px">
     </div>
     <div class="row m-0 p-0" style="color: rgb(100, 150, 75);">
         <div class="col-md-4 p-0 p-md-1"><h5 class="mb-0">74  Overlook Drive, Richmond, California, US 99649</h5>
@@ -139,10 +198,41 @@
     <div class="container py-1">
         <div class="text-center"><span class="text-muted">&copy;2021  All Rights Reserved</span></div>
     </div>
-    <div class="row m-0" style="color: #df6a81;">
-        <div class="col-sm-6 offset-sm-6">
-            <span class="d-block" style="text-align-last: right;">Managed & Designed By  &#169; Rishabh Sharma</span>
-        </div>
-    </div>
+
+
+
+    
+                 <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+                </a> 
+                 <a href="https://twitter.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+                </a> 
+                 <a href="https://youtube.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+                </a> 
+                </div> 
+                </div> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+            <div class="row m-0" style="color: #df6a81;">
+                <div class="col-sm-6 offset-sm-6">
+                    <span class="d-block" style="text-align-last: right;">Managed &amp; Designed By  © Rishabh Sharma</span>
+                </div>
+            </div>
+        </div><a href="/site/6902849e/?preview=true&amp;nee=true&amp;showOriginal=true&amp;dm_checkSync=1&amp;dm_try_mode=true&amp;dm_device=desktop" id="1067941554" duda_id="1067941554" data-caption="" raw_url="/site/6902849e/">
+         <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+        </a> 
+         <a href="https://twitter.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+        </a> 
+         <a href="https://youtube.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+        </a> 
+        </div> 
+        </div> 
+        
 </footer>
 </body>

@@ -1,4 +1,4 @@
-IC
+# IC
 
 
 GRIP@ Sparks Foundation Web Development and Designing Internship Task-1 Basic Banking website The Sparks Foundation Tasks This repository contains the tasks that I completed while working as an Intern for The Sparks Foundation.
